@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "SUM.C": "cpp",
+        "SUB.C": "cpp",
+        "MULT.C": "cpp",
+        "DIVISION.C": "cpp",
+        "ARRAY_FACTORIAL.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
