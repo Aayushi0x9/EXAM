@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "STR-UPPERCASE.C": "cpp",
+        "STR-LOWWERCASE.C": "cpp",
+        "STR-LOWERCASE.C": "cpp",
+        "STR-TOGULCASE.C": "cpp",
+        "STR-TOGGLECASE.C": "cpp",
+        "STR-TITLECASE.C": "cpp",
+        "STR-CAMELCASE.C": "cpp"
+    }
+}
