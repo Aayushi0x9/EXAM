@@ -6,6 +6,11 @@
         "STR-TOGULCASE.C": "cpp",
         "STR-TOGGLECASE.C": "cpp",
         "STR-TITLECASE.C": "cpp",
-        "STR-CAMELCASE.C": "cpp"
+        "STR-CAMELCASE.C": "cpp",
+        "EMAIL.C": "cpp",
+        "password.C": "cpp",
+        "PALINDROME.C": "cpp",
+        "COMPARE.C": "cpp",
+        "FREQUENCY.C": "cpp"
     }
 }
