@@ -11,6 +11,7 @@
         "password.C": "cpp",
         "PALINDROME.C": "cpp",
         "COMPARE.C": "cpp",
-        "FREQUENCY.C": "cpp"
+        "FREQUENCY.C": "cpp",
+        "UDF-CLACULATOR.C": "cpp"
     }
 }
