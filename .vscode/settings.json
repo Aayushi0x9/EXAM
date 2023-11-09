@@ -12,6 +12,11 @@
         "PALINDROME.C": "cpp",
         "COMPARE.C": "cpp",
         "FREQUENCY.C": "cpp",
-        "UDF-CLACULATOR.C": "cpp"
+        "UDF-CLACULATOR.C": "cpp",
+        "PR-11.C": "cpp",
+        "PR-12.C": "cpp",
+        "PR-13.C": "cpp",
+        "PTR-1D-SQUARE.C": "cpp",
+        "PTR-SWAP.C": "cpp"
     }
 }
