@@ -17,6 +17,8 @@
         "PR-12.C": "cpp",
         "PR-13.C": "cpp",
         "PTR-1D-SQUARE.C": "cpp",
-        "PTR-SWAP.C": "cpp"
+        "PTR-SWAP.C": "cpp",
+        "COLOUR.C": "cpp",
+        "PTR1.C": "cpp"
     }
 }
