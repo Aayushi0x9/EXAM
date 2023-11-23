@@ -2,12 +2,12 @@
 
 int main()
 {
-    int i, n;
+    int i, j, n;
 
     printf("Enter size of array : ");
     scanf("%d", &n);
 
-    int a[n], b[n], fact = 1;
+    int a[n], b[n], fact;
 
     printf("\n\n----: Enter array of A :----\n");
     for (i = 0; i < n; i++)
@@ -20,12 +20,13 @@ int main()
 
     for (i = 0; i < n; i++)
     {
-     for (i = 0; i <a[i]; i++)
+        fact = 1;
+        for (j = 1; j <= a[i]; j++)
         {
-            b[i]*=i;
+            fact *= j;
         }
-        
+        printf("\na[%d]: %d", i, fact);
     }
-    printf("\nc[%d]: %d", i, b[i]);
+
     return 0;
 }

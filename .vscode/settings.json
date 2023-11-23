@@ -19,6 +19,9 @@
         "PTR-1D-SQUARE.C": "cpp",
         "PTR-SWAP.C": "cpp",
         "COLOUR.C": "cpp",
-        "PTR1.C": "cpp"
+        "PTR1.C": "cpp",
+        "ARRAY_FACTORIAL.C": "cpp",
+        "DIVISION.C": "cpp",
+        "ARRAYNEGATIVE.C": "cpp"
     }
 }

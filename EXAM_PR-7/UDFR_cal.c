@@ -31,13 +31,13 @@ void mod(int n1, int n2)
 }
 int inputn1(int n1)
 {
-    printf("Enter first number : ");
+    printf("\n\nEnter first number : ");
     scanf("%d", &n1);
     return n1;
 }
 int inputn2(int n2)
 {
-    printf("Enter second number : ");
+    printf("\n\nEnter second number : ");
     scanf("%d", &n2);
     return n2;
 }
@@ -45,55 +45,48 @@ int main()
 {
 
     int choice, n1, n2;
-menu:
+    while(1){
     printf("\nEnter 1 >> Addition");
     printf("\nEnter 2 >> Subtraction");
     printf("\nEnter 3 >> Multiplication");
     printf("\nEnter 4 >> Division");
     printf("\nEnter 5 >> Modulas");
     printf("\nEnter 0 >> Exit");
+    
     printf("\nEnter your choice : ");
     scanf("%d", &choice);
-
+    
+    if(choice==0)
+       break;
+    else{
+        int n1 = inputn1(n1);
+        int n2 = inputn2(n2);
+  
     switch (choice)
     {
-
     case 1:
-    {
-        int n1 = inputn1(n1);
-        int n2 = inputn2(n2);
         sum(n1, n2);
-        goto menu;
-    }
-    case 2:
-    {
-        int n1 = inputn1(n1);
-        int n2 = inputn2(n2);
-        sub(n1, n2);
-        goto menu;
-    }
-    case 3:
-    {
-        int n1 = inputn1(n1);
-        int n2 = inputn2(n2);
-        mult(n1, n2);
-        goto menu;
-    }
-    case 4:
-    {
-        int n1 = inputn1(n1);
-        int n2 = inputn2(n2);
-        div(n1, n2);
-        goto menu;
-    }
-    case 5:
-    {
-        int n1 = inputn1(n1);
-        int n2 = inputn2(n2);
-        mod(n1, n2);
-        goto menu;
-    }
-    case 0:
         break;
+        
+    case 2:
+        sub(n1, n2);
+        break;
+        
+    case 3:
+        mult(n1, n2);
+        break;
+        
+    case 4:
+        div(n1, n2);
+        break;
+        
+    case 5:
+        mod(n1, n2);
+        break;
+        
+    default : 
+        printf("Enter valid choice !!!");
+    }
+    }
     }
 }

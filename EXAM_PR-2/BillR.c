@@ -8,19 +8,19 @@ main()
       clrscr();
 
       P("Enter Electricity units : ");
-      scanf("%d",U);
+      scanf("%d",&U);
 
-      if(U>=0||U<=50)
+      if(U<=50)
       {
 	 bill= U*0.5;
       }
 
-      else if(U>=51||U<=150)
+      else if(U<=150)
       {
 	 bill=25+(U-50)*0.75;
       }
 
-      else if(U>=151||U<=250)
+      else if(U<=250)
       {
 	 bill=100+(U-150)*1.20;
       }
@@ -32,9 +32,10 @@ main()
 
       else
       {
-	printf("invalid !!");
+    	printf("invalid !!");
       }
-      printf("Your Electricity Bill is : %.2f",bill + (bill * 0.2));
+      bill+=bill*0.2;
+      printf("Your Electricity Bill is : %.2f",bill);
 
       getch();
 

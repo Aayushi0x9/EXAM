@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -11,26 +11,25 @@ int main()
 
     int a[r][c];
 
-    for(i=0; i<r; i++)
+    for (i = 0; i < r; i++)
     {
-        for(j=0; j<c; j++)
+        for (j = 0; j < c; j++)
         {
-            printf("ENTER ARRAY a[%d][%d] : ",i,j);
+            printf("ENTER ARRAY a[%d][%d] : ", i, j);
             scanf("%d", &a[i][j]);
         }
-        printf("\n");
     }
 
-    int max=a[0][0];
+    int max = a[0][0];
 
-    for(i=0; i<r; i++)
+    for (i = 0; i < r; i++)
     {
-        for(j=0; j<c; j++)
+        for (j = 0; j < c; j++)
         {
-            if(a[i][j]>max)
-           max  = a[i][j];
+            if (a[i][j] > max)
+                max = a[i][j];
         }
     }
 
-    printf("THE LARGEST NUMBER OF ARRAY IS: %d",max);
+    printf("THE LARGEST NUMBER OF ARRAY IS: %d", max);
 }
