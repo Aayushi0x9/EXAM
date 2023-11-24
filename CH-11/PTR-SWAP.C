@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a, b;
+    int a, b, c;
 
     printf("Enter the value of A : ");
     scanf("%d", &a);
@@ -18,12 +18,12 @@ int main()
     ptra = &a;
     ptrb = &b;
 
-    *ptra = *ptra + *ptrb;
-    *ptrb = *ptra - *ptrb;
-    *ptra = *ptra - *ptrb;
+    c = *ptra;
+    *ptra = *ptrb;
+    *ptrb = c;
 
     printf("\n----: After swapping :----\n\n");
-    printf("A = %d\n", *ptra);
-    printf("B = %d", *ptrb);
+    printf("A = %d\n", a);
+    printf("B = %d", b);
     return 0;
 }
