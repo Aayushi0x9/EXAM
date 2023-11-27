@@ -23,6 +23,7 @@
         "ARRAY_FACTORIAL.C": "cpp",
         "DIVISION.C": "cpp",
         "ARRAYNEGATIVE.C": "cpp",
-        "PR-23.C": "cpp"
+        "PR-23.C": "cpp",
+        "PTR_REV.C": "cpp"
     }
 }
