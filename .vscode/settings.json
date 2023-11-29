@@ -24,6 +24,12 @@
         "DIVISION.C": "cpp",
         "ARRAYNEGATIVE.C": "cpp",
         "PR-23.C": "cpp",
-        "PTR_REV.C": "cpp"
+        "PTR_REV.C": "cpp",
+        "WHILE61to10.C": "cpp",
+        "WHILE615.C": "cpp",
+        "WHILE614.C": "cpp",
+        "WHILE613.C": "cpp",
+        "WHILE610to1.C": "cpp",
+        "1toN_SUM.C": "cpp"
     }
 }
